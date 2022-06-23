@@ -1,5 +1,5 @@
 module.exports = function reverse (n) {
-  let revNum = num.toSrting().split("").reverse().join("");
-  num = parseInt(revNum);
+  let revNum = n.toSrting().split("").reverse().join("");
+  n = parseInt(revNum);
   return revNum;
-}
+};
